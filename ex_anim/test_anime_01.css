@@ -1,0 +1,50 @@
+@keyframes test_animation {
+  0% {
+    background-color: D9E021; }
+  20% {
+    background-color: 0ADA5; }
+  40% {
+    background-color: F7931E; }
+  60% {
+    background-color: CA16FF; }
+  80% {
+    background-color: D9E021; }
+  100% {
+    background-color: 0ADA5; }}
+    
+@keyframes test_animation_02 {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  55% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+.test {
+  height:550px;
+  animation-name: test_animation;
+  animation-duration: 5s; 
+  animation-fill-mode:  forwards;}
+
+.texte {
+  padding-top: 15%;
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  animation-name: test_animation_02;
+  animation-duration: 15s;}
+  
+.logo {
+	width: 100px;
+	height: 100px;
+	animation-name:test_animation_03
+	animation-duration: 15s;
+	padding-top: 15%;
+}
+
+
+
+/*# sourceMappingURL=test_anime_01.css.map */

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="test_anime_01.css"/>
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+<body>
+	<div id="snowflakeContainer">
+    	<p class="snowflake">*</p>
+	</div>
+	<div class="container test">
+		<div class="row">
+			<div class=col-md-1>
+			</div>
+			<div class="col-md-10">
+				<div class="row texte">
+					<p>POP School Lens vous souhaite</p>
+					<p>une</p>
+					<p>BONNE ANNÉE 2017</p>
+				</div>
+			</div>
+			<div class=col-md-1>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
