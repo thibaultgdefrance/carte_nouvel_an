@@ -10,23 +10,17 @@
   80% {
     background-color: D9E021; }
   100% {
-    background-color: 0ADA5; }}
+    background-color: D9E021; }}
     
 @keyframes test_animation_02 {
   0% {
     opacity: 0; }
-  50% {
-    opacity: 0; }
-  55% {
-    opacity: 1; }
   100% {
     opacity: 1; } }
-
-.test {
-  height:920px;
+body {
   animation-name: test_animation;
-  animation-duration: 10s; 
-  animation-fill-mode:  forwards;}
+  animation-duration: 5s; 
+  animation-iteration-count : infinite;}
 
 .texte {
   top: 5%;
@@ -37,11 +31,14 @@
   animation-name: test_animation_02;
   animation-duration: 5s;}
   
-logo {
-	width: 30%;
-	display: block;
-	margin: auto;
-}
 
+@media screen and (max-width: 400px) {
+	img {
+		width: 50%;
+	}
+	.texte {
+		margin-top: 30%;
+	}
+}
 
 /*# sourceMappingURL=test_anime_01.css.map */

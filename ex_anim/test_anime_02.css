@@ -1,0 +1,46 @@
+@keyframes test_animation_02 {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+    
+body {
+	background-image: url("bgnouvel-an2_1024.png");
+}
+
+.texte {
+  margin-top: 10%;
+  font-family: "Lobster", cursive;
+  font-size: 80px;
+  text-align: center;
+  animation-name: test_animation_02;
+  animation-duration: 5s;
+  background-color: white;}
+  
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
+
+@media screen and (max-width: 750px) {
+	.texte {
+		margin-top: 50%;
+		font-size: 30px;
+		background-color: transparent;
+		color: white;
+	}
+}

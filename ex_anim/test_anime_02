@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+	<meta http-equiv="refresh" content="8;test_anime_03"/>
+	<link rel="stylesheet" type="text/css" href="test_anime_02.css"/>
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<script type="text/java-script" href="bower_components/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+	<div id="snowflakeContainer">
+		<p class="snowflake">*</p>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class ="col-md-12 texte">
+				<p>POP School Lens</p>
+				<p>vous souhaite</p>
+				<p>une  bonne annnée 2017</p>
+			</div>
+		</div>
+	</div>
+	<script src="fallingsnow_v6.js"></script>
+</body>
+</html>
