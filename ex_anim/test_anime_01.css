@@ -23,28 +23,25 @@
     opacity: 1; } }
 
 .test {
-  height:550px;
+  height:920px;
   animation-name: test_animation;
-  animation-duration: 5s; 
+  animation-duration: 10s; 
   animation-fill-mode:  forwards;}
 
 .texte {
-  padding-top: 15%;
+  top: 5%;
   font-family: "Lobster", cursive;
   font-size: 50px;
   color: white;
   text-align: center;
   animation-name: test_animation_02;
-  animation-duration: 15s;}
+  animation-duration: 5s;}
   
-.logo {
-	width: 100px;
-	height: 100px;
-	animation-name:test_animation_03
-	animation-duration: 15s;
-	padding-top: 15%;
+logo {
+	width: 30%;
+	display: block;
+	margin: auto;
 }
-
 
 
 /*# sourceMappingURL=test_anime_01.css.map */

@@ -8,23 +8,16 @@
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 </head>
 <body>
-	<div id="snowflakeContainer">
-    	<p class="snowflake">*</p>
-	</div>
-	<div class="container test">
-		<div class="row">
-			<div class=col-md-1>
-			</div>
-			<div class="col-md-10">
-				<div class="row texte">
-					<p>POP School Lens vous souhaite</p>
-					<p>une</p>
-					<p>BONNE ANNÉE 2017</p>
+	<a href="test_anime_02">
+		<div class="container-fluid test">
+			<div class="row texte">
+				<div class="col-md-12">
+					<div class="logo">
+						<img src="logopopblanc.png" />
+					</div>
 				</div>
 			</div>
-			<div class=col-md-1>
-			</div>
 		</div>
-	</div>
+	</a>
 </body>
 </html>
