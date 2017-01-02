@@ -17,4 +17,12 @@
 	transform: translate3d(0, -100%, 0); 
 	}
 }
+@keyframes progres{
+	from {
+	oppacity: 1;
+	}
+	to {
+	oppacity: 0;
+	}
+}
 
