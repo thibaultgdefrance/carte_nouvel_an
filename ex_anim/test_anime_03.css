@@ -5,10 +5,6 @@
 	animation-fill-mode: forwards;
 }
 
-.video {
-	padding-top: 15%;
-	padding-left: 25%;
-}
 @keyframes volet {
 	from {}
 	60% {
@@ -25,4 +21,11 @@
 	oppacity: 0;
 	}
 }
-
+svg {
+	width: 100vw;
+	height: 100vh;
+}
+video {
+	width: 100vw;
+	height: 100vh;
+}
