@@ -1,0 +1,14 @@
+=ombre-portee($offset, $offset, $blur, $color)
+    box-shadow: $offset $offset $blur $color
+
+$offset: 20px
+$blur: 5px
+$color: #4C4B53
+
+.menu
+    @include ombre-portee($offset, $offset, $blur, $color)
+    opacity: 0.8
+
+
+.photo
+    @include ombre-portee($offset, $offset, $blur, $color)

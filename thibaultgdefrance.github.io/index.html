@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" tyoe="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" / >
+    <link rel="stylesheet" type="text/css" href="css/cv_2017.css" />
+    <script type="text/javascript" src="js/cv_2017.js" ></script>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bree+Serif|Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid" id="accueil">
+        <div class="row menu navbar-fixed-top">
+            <div class="col-md-2 col-offset-1 bouton">
+                <a href="#accueil">
+                    <p>
+                        Accueil
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-2 bouton">
+                <a href="#parcours">
+                    <p>
+                        parcours
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-2 bouton">
+                <a href="#competences">
+                    <p>
+                        competences
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-2 bouton">
+                <a href="#interets">
+                    <p>
+                        à propos
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-2 bouton">
+                <a href="#info">
+                    <p>
+                        me contacter
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-2 bouton">
+                <a href="https://www.linkedin.com/in/thibault-defrance-6bb254133/">
+                    <img class="petit_logo" src="media/linkedin.png"  />
+                </a>
+                <a href="https://github.com/thibaultgdefrance">
+                    <img class="petit_logo" src="media/git.png"  />
+                </a>
+            </div>
+        </div>
+        <div class="row background">
+            <div class="col-md-5 col-md-offset-1 titre">
+                <p>Thibaullt Defrance developpeur web et applications mobiles</p>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid deroulant">
+        <div class="row">
+            <div class="w3-content w3-section">
+                <img class="mySlides" src="media/rectangle_face.JPG">
+                <img class="mySlides" src="media/rectangle_profil.JPG">
+                <img class="mySlides" src="media/rectangle_louvre.jpg">
+            </div>
+            <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < x.length; i++) {
+                       x[i].style.display = "none";
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) {myIndex = 1}
+                    x[myIndex-1].style.display = "block";
+                    setTimeout(carousel, 10000); // Change image every 2 seconds
+                    }
+            </script>
+
+        </div>
+    </div>
+
+    </div>
+
+    <div class="container-fluid" id="competences">
+        <div class="row">
+            <div class="col-md-1">
+
+            </div>
+            <div class= "col-md-3 liste">
+
+                    <div class= "icon"><img class="logo" src="media/html.png" /><p>Integrateur html5</p></div>
+                    <div class= "icon"><img class="logo" src="media/css.png" /><p>Integrateur css3</p></div>
+                    <div class= "icon"><img class="logo" src="media/js.png" /><p>Programmer JavaScript</p></div>
+
+            </div>
+            <div class="col-md-3 liste">
+
+                    <div class= "icon"><img class="logo" src="media/php.png" /><p>Programmer PHP</p></div>
+                    <div class= "icon"><img class="logo" src="media/Bootstrap-512.png" /><p>Bootstrap</p></div>
+                    <div class= "icon"><img class="logo" src="media/jquery.png" /><p>Jquery</p></div>
+
+            </div>
+            <div class="col-md-3 liste">
+
+                    <div class= "icon"><img class="logo" src="media/mysql.png" /><p>MySQL</p></div>
+                    <div class= "icon"><img class="logo" src="media/ruby.png" /><p>ruby on rail</p></div>
+                    <div class= "icon"><img class="logo" src="media/angularjs-stacked1.png" /><p>Angular</p></div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid parcours">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 info" id="parcours">
+                <p>monteur video et cadreur TELE GOHELLE</p>
+                <p>ingenieur du son et animateur radio RADIO PLUS</p>
+                <p>agent administratif et logistique HOLCIM BETON</p>
+                <p>agent administratif securité social</p>
+                <p>agent en service hospitaper CARMI</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid taf">
+        <div class="row">
+            <div class="col-md-4 col-offset-6">
+
+            </div>
+        </div>
+    </div>
+    <div class="container  passion">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-3" id="interets">
+                <p>
+                    Passionné de cinema, d'animation, de sculpture et  de dessin
+                </p>
+                <p>
+                    Je fais des sports d'endurance (ex course, velo)
+                </p>
+                <p>
+                    Je passe du temps à me tenir informé des nouvelles technologies
+                </p>
+                <p>
+                    niveau d'anglais: lu, écrit, parlé;
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-md-offset-1 info" id="info">
+                <img class="photo_cercle" src="media/photo_cercle.png" />
+                <p>Thibault Defrance</p>
+                <p>Developpeur web et applications mobiles</p>
+                <p>email: thibault.g.defrance@gmail.com</p>
+                <p>telephone: 06 21 22 54 99</p>
+            </div>
+        </div>
+    </div>
+    <div class="container footer">
+        <div class="row navbar-fixed-bottom">
+            <div class="col-md-1">
+                <a href="#accueil">
+                    <img class="petit_logo" src="media/Circle-icons-arrow-up.svg.png"/>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
