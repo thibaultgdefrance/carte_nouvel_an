@@ -21,7 +21,13 @@ a {
 .background {
   background-image: url("../media/stardust.png");
   opacity: 0.8;
-  height: 80px; }
+  height: 80px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed; }
 
 .titre {
   font-family: "Amatic SC", cursive;
@@ -35,7 +41,13 @@ a {
 
 #competences {
   background-image: url("../media/resize_flout_ecran_pc.JPG");
-  height: 1000px; }
+  height: 1000px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed; }
 
 .icon {
   height: 40px;
@@ -57,7 +69,13 @@ a {
 
 .parcours {
   background-image: url("../media/resize_vide.JPG");
-  height: 998px; }
+  height: 998px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed; }
 
 .taf {
   height: 100px; }
@@ -75,10 +93,17 @@ a {
   height: 500px;
   color: #1C1F26; }
 
+.recap {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Amatic SC", cursive;
+  color: white; }
+
 .liste {
   background-color: #E6EDDE;
   margin: 20px;
-  margin-top: 15%;
+  margin-top: 0px;
   border-radius: 20px;
   opacity: 0.6; }
 
@@ -91,7 +116,8 @@ a {
 
 #parcours {
   font-family: "Amatic SC", cursive;
-  font-size: 35px; }
+  font-size: 35px;
+  padding-top: 5%; }
 
 #interets {
   padding-top: 100px; }
@@ -104,12 +130,22 @@ a {
 .footer {
   display: none; }
 
+.blanc {
+  height: 500px; }
+
+@media screen and (max-width: 767px) {
+  body {
+    overflow: auto; } }
 @media screen and (max-width: 767px) {
   .bouton {
     opacity: 1;
     background-color: #5682D9;
     color: white;
     height: 75px; } }
+@media screen and (max-width: 767px) {
+  .recap {
+    color: white;
+    font-size: 25px; } }
 @media screen and (max-width: 767px) {
   .liste {
     width: 200px;
@@ -160,6 +196,9 @@ a {
     font-size: 30px; } }
 @media screen and (max-width: 767px) {
   #info {
-    font-size: 25px; } }
+    font-size: 25px; }
+
+  .blanc {
+    display: none; } }
 
 /*# sourceMappingURL=cv_2017.css.map */
