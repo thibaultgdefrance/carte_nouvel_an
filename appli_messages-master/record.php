@@ -4,4 +4,5 @@
 
     addMessages($_POST['auteur'],$_POST['texte']);
 
-    echo "message enregistré";
+    header('Location: depart.php');
+    exit();

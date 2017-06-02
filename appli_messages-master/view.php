@@ -6,6 +6,7 @@
     <head>
         <meta charset="utf-8">
         <title>appli_message</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
         <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="css/appli_message.css" />
         <link href="https://fonts.googleapis.com/css?family=Modak" rel="stylesheet">
@@ -20,8 +21,6 @@
                 <div class="col-md-offset-4 col-md-2 col-sm-12 col-xs-12">
                     <div class="titre">
                         <div class="col-md-12">
-
-
                             <h2>
                                 Messages Arrival
                             </h2>
