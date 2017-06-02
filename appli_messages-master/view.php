@@ -15,7 +15,7 @@
         <div class="container titre">
             <h1>FIRST CLASS MESSAGES</h1>
         </div>
-        <div class="container corps">
+        <div class="container-fluid corps">
             <div class="row">
                 <div class="col-md-offset-4 col-md-2 col-sm-12 col-xs-12">
                     <div class="titre">
@@ -32,7 +32,9 @@
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <img src="../media/landing.png" alt="" height="60px">
+                            <a href="view.php">
+                                <img src="../media/landing.png" alt="" height="60px">
+                            </a>
                         </div>
 
                     </div>

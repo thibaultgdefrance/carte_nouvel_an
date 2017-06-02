@@ -50,17 +50,17 @@ p {
   .corps {
     margin: 0px;
     margin-right: 0px;
-    margin-left: 0%;
+    margin-left: 0px;
     border-radius: 0px;
-    max-width: 100%;
+    max-width: auto;
     height: 100%; }
 
   .corps2 {
     margin: 0px;
     margin-right: 0px;
-    margin-left: 0%;
+    margin-left: 0px;
     border-radius: 0px;
-    max-width: 100%;
+    max-width: auto;
     height: 100%; } }
 
 /*# sourceMappingURL=appli_message.css.map */

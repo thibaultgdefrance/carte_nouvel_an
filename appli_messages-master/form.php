@@ -9,7 +9,10 @@
         <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
     </head>
     <body>
-        <div class="container corps2">
+        <div class="container titre">
+            <h1>FIRST CLASS MESSAGES</h1>
+        </div>
+        <div class="container-fluid corps2">
             <div class="row">
                 <div class="col-md-offset-4 col-md-2 ">
                     <div class="titre">
@@ -19,7 +22,9 @@
                             </h1>
                         </div>
                         <div class="col-md-6">
-                            <img src="../media/take-off.png" alt="" height="60px">
+                            <a href="form.php">
+                                <img src="../media/take-off.png" alt="" height="60px">
+                            </a>
                         </div>
                         <div class="col-md-6">
                             <a href="view.php">
